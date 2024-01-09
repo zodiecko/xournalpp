@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-24 09:30+0000\n"
-"PO-Revision-Date: 2024-01-09 15:58\n"
+"PO-Revision-Date: 2024-01-09 17:47\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3115,7 +3115,7 @@ msgstr "页码  "
 
 #: ../ui/settings.glade:3579
 msgid "Below preview"
-msgstr "以下预览"
+msgstr "预览下方"
 
 #: ../ui/settings.glade:3580
 msgid "Circle background"
