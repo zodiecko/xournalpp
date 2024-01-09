@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-24 09:30+0000\n"
-"PO-Revision-Date: 2024-01-09 12:37\n"
+"PO-Revision-Date: 2024-01-09 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1523,7 +1523,7 @@ msgstr "三角板"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:447
 msgid "Compass"
-msgstr "指南针"
+msgstr "量角器"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Shape Recognizer"
@@ -2783,7 +2783,7 @@ msgstr "压感"
 
 #: ../ui/settings.glade:1866
 msgid "<i>With some setup, pen strokes have artifacts at their beginning. This can be avoided by ignoring the first few events/stroke-points when the pen touches the screen.</i>"
-msgstr "<i>因为某些设置，笔触在开始时会出现伪影， 通过忽略笔触摸屏幕时的前几个事件/笔触点，可以避免这种情况。</ i>"
+msgstr "<i>因为某些设置，笔触在开始时会出现伪影， 通过忽略笔触摸屏幕时的前几个事件/笔触点，可以避免这种情况。</i>"
 
 #: ../ui/settings.glade:1883
 msgid "Ignore the first"
@@ -3919,7 +3919,7 @@ msgstr "上一图层(_P)"
 
 #: ../ui/mainmenubar.xml:414
 msgid "_Next Layer"
-msgstr "下一层(_N)"
+msgstr "下一图层(_N)"
 
 #: ../ui/mainmenubar.xml:419
 msgid "_Top Layer"
