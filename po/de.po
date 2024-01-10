@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-11-22 08:44\n"
+"POT-Creation-Date: 2024-01-10 17:48+0000\n"
+"PO-Revision-Date: 2024-01-10 17:50\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -23,39 +23,35 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "Audio-Ordner nicht definiert oder ungültig! Die Aufzeichnung wird nicht funktionieren!\n"
 "Bitte legen Sie einen Aufnahme-Ordner unter \"Einstellungen > Audio-Aufzeichnung\" fest"
 
+#: ../src/core/control/Control.cpp:217
+msgid "Filesystem error: {2}"
+msgstr ""
+
 #: ../src/core/control/Control.cpp:229
-msgid "Autosave renamed from {1} to {2}"
-msgstr "Autospeicherung von {1} umbenannt zu {2}"
+msgid "Could not remove old autosave file \"{1}\": {2}"
+msgstr ""
 
-#: ../src/core/control/Control.cpp:240
-msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
-msgstr "Konnte Autospeicherung \"{1}\" nicht umbenennen zu \"{2}\": {3}"
-
-#: ../src/core/control/Control.cpp:249
-msgid "Autosave failed with an error: {1}"
-msgstr "Autospeicherung fehlgeschlagen mit Fehler: {1}"
-
-#: ../src/core/control/Control.cpp:574
+#: ../src/core/control/Control.cpp:544
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Die Werkzeugleistenkonfiguration \"{1}\" ist vordefiniert, möchten Sie eine Kopie erstellen?"
 
-#: ../src/core/control/Control.cpp:577
+#: ../src/core/control/Control.cpp:547
 msgid "Yes"
 msgstr "Ja"
 
-#: ../src/core/control/Control.cpp:577
+#: ../src/core/control/Control.cpp:547
 msgid "No"
 msgstr "Nein"
 
-#: ../src/core/control/Control.cpp:756
+#: ../src/core/control/Control.cpp:726
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Es stehen keine PDF-Seiten zum Anhängen zur Verfügung. Möglicherweise müssen Sie das Dokument erneut öffnen."
 
-#: ../src/core/control/Control.cpp:770
+#: ../src/core/control/Control.cpp:740
 msgid "Unable to retrieve pdf page."
 msgstr "PDF-Seite konnte nicht abgerufen werden."
 
-#: ../src/core/control/Control.cpp:1336
+#: ../src/core/control/Control.cpp:1306
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -63,64 +59,64 @@ msgstr "Öffnen Sie keine automatisch gespeicherten Dateien. Diese werden ansons
 "Kopieren Sie diese Dateien an einen anderen Ort.\n"
 "Dateien aus dem Ordner {1} können nicht geöffnet werden."
 
-#: ../src/core/control/Control.cpp:1350
+#: ../src/core/control/Control.cpp:1320
 msgid "file: {1}"
 msgstr "Datei: {1}"
 
-#: ../src/core/control/Control.cpp:1398
+#: ../src/core/control/Control.cpp:1368
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Die angehängte Hintergrunddatei konnte nicht gefunden werden. Sie wurde möglicherweise verschoben, umbenannt oder gelöscht."
 
-#: ../src/core/control/Control.cpp:1401
+#: ../src/core/control/Control.cpp:1371
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Die Hintergrunddatei \"{1}\" konnte nicht gefunden werden. Sie wurde möglicherweise verschoben, umbenannt oder gelöscht.\n"
 "Sie wurde zuletzt hier gesehen: \"{2}\""
 
-#: ../src/core/control/Control.cpp:1411
+#: ../src/core/control/Control.cpp:1381
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "Vorgeschlagene Datei: \"{1}\""
 
-#: ../src/core/control/Control.cpp:1419
+#: ../src/core/control/Control.cpp:1389
 msgid "Use proposed PDF"
 msgstr "Nutze das vorgeschlagene PDF"
 
-#: ../src/core/control/Control.cpp:1421
+#: ../src/core/control/Control.cpp:1391
 msgid "Select another PDF"
 msgstr "Andere PDF-Datei auswählen"
 
-#: ../src/core/control/Control.cpp:1422
+#: ../src/core/control/Control.cpp:1392
 msgid "Remove PDF Background"
 msgstr "PDF-Hintergrund entfernen"
 
-#: ../src/core/control/Control.cpp:1423 ../src/core/control/Control.cpp:1946
+#: ../src/core/control/Control.cpp:1393 ../src/core/control/Control.cpp:1916
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../src/core/control/Control.cpp:1454
+#: ../src/core/control/Control.cpp:1424
 msgid "Error opening file \"{1}\""
 msgstr "Fehler beim Öffnen der Datei \"{1}\""
 
-#: ../src/core/control/Control.cpp:1462
+#: ../src/core/control/Control.cpp:1432
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Die zu ladende Datei hat eine neuere Dateiformatversion als die, die derzeit von dieser Version von Xournal++ unterstützt wird. Die Datei wird eventuell nicht richtig geladen. Möchten Sie die Datei trotzdem öffnen?"
 
-#: ../src/core/control/Control.cpp:1624
+#: ../src/core/control/Control.cpp:1594
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Fehler beim Öffnen des PDFs \"{1}\"\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1728
+#: ../src/core/control/Control.cpp:1698
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Speichere Datei"
 
-#: ../src/core/control/Control.cpp:1728
+#: ../src/core/control/Control.cpp:1698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -128,47 +124,47 @@ msgstr "Speichere Datei"
 msgid "_Cancel"
 msgstr "_Abbrechen"
 
-#: ../src/core/control/Control.cpp:1729
+#: ../src/core/control/Control.cpp:1699
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Speichern"
 
-#: ../src/core/control/Control.cpp:1734
+#: ../src/core/control/Control.cpp:1704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ Dateien"
 
-#: ../src/core/control/Control.cpp:1781
+#: ../src/core/control/Control.cpp:1751
 msgid "Select font"
 msgstr "Schriftart auswählen"
 
-#: ../src/core/control/Control.cpp:1796
+#: ../src/core/control/Control.cpp:1766
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Farbe auswählen"
 
-#: ../src/core/control/Control.cpp:1818
+#: ../src/core/control/Control.cpp:1788
 msgid "Unsaved Document"
 msgstr "Ungespeichertes Dokument"
 
-#: ../src/core/control/Control.cpp:1937
+#: ../src/core/control/Control.cpp:1907
 msgid "Document file was removed."
 msgstr "Datei des Dokuments wurde entfernt."
 
-#: ../src/core/control/Control.cpp:1937
+#: ../src/core/control/Control.cpp:1907
 msgid "This document is not saved yet."
 msgstr "Dieses Dokument wurde noch nicht gespeichert."
 
-#: ../src/core/control/Control.cpp:1938
+#: ../src/core/control/Control.cpp:1908
 msgid "Save As..."
 msgstr "Speichern unter..."
 
-#: ../src/core/control/Control.cpp:1938 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1908 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Speichern"
 
-#: ../src/core/control/Control.cpp:1943
+#: ../src/core/control/Control.cpp:1913
 msgid "Discard"
 msgstr "Verwerfen"
 
@@ -482,9 +478,13 @@ msgstr "Erweiterte Exportoptionen anzeigen"
 msgid "Error while autosaving: {1}"
 msgstr "Fehler bei der Autospeicherung: {1}"
 
-#: ../src/core/control/jobs/AutosaveJob.cpp:47
+#: ../src/core/control/jobs/AutosaveJob.cpp:45
 msgid "Autosaving to {1}"
 msgstr "Autospeicherung nach {1}"
+
+#: ../src/core/control/jobs/AutosaveJob.cpp:68
+msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
+msgstr "Konnte Autospeicherung \"{1}\" nicht umbenennen zu \"{2}\": {3}"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:23
 msgid "Export PDF"
@@ -565,15 +565,15 @@ msgstr "PDF exportieren"
 msgid "Save file error, can't backup: {1}"
 msgstr "Dateispeicherfehler, konnte nicht sichern: {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:61
+#: ../src/core/control/latex/LatexGenerator.cpp:54
 msgid "Failed to parse LaTeX generator path: {1}"
 msgstr "Der LaTeX-Befehlspfad konnte nicht geparst werden: {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:72
+#: ../src/core/control/latex/LatexGenerator.cpp:65
 msgid "Failed to parse LaTeX generator command: {1}"
 msgstr "Fehler beim Parsen des LaTeX-Erzeuger-Befehls: {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:78
+#: ../src/core/control/latex/LatexGenerator.cpp:71
 msgid "Failed to find LaTeX generator program in PATH: {1}\n\n"
 "Since installation is detected within Flatpak, you need to install the Flatpak freedesktop Tex Live extension. For example, by running:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
@@ -581,15 +581,15 @@ msgstr "LaTeX-Generator-Programm konnte nicht in PATH gefunden werden: {1}\n\n"
 "Da Sie Xournal++ in Flatpak installiert haben, müssen sie die Flatpak freedesktop TeX Live Erweiterung installieren. Zum Beispiel, indem Sie folgenden Befehl ausführen:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:83
+#: ../src/core/control/latex/LatexGenerator.cpp:76
 msgid "Failed to find LaTeX generator program in PATH: {1}"
 msgstr "Konnte LaTeX-Programm nicht in \"PATH\" finden: {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:91
+#: ../src/core/control/latex/LatexGenerator.cpp:84
 msgid "Could not save .tex file: {1}"
 msgstr "Konnte .tex Datei \"{1}\" nicht speichern"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:105
+#: ../src/core/control/latex/LatexGenerator.cpp:98
 msgid "Could not start {1}: {2} (exit code: {3})"
 msgstr "Konnte {1} nicht starten: {2} (Ausstiegscode: {3})"
 
@@ -875,11 +875,11 @@ msgstr "Attribut \"{1}\" konnte nicht als size_t ausgelesen werden, der Wert ist
 msgid "Attribute \"{1}\" could not be parsed as size_t, the value is \"{2}\""
 msgstr "Attribut \"{1}\" konnte nicht als size_t ausgelesen werden, der Wert ist \"{2}\""
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:249
+#: ../src/core/control/xojfile/SaveHandler.cpp:251
 msgid "Could not write background \"{1}\", {2}"
 msgstr "Konnte Hintergrund \"{1}\" nicht speichern, {2}"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:346
+#: ../src/core/control/xojfile/SaveHandler.cpp:348
 msgid "Could not write background \"{1}\". Continuing anyway."
 msgstr "Konnte Hintergrund nicht speichern \"{1}\". Fahre trotzdem fort."
 
@@ -897,11 +897,11 @@ msgstr "Audioaufnahme {1} kann nicht abgespielt werden"
 msgid "Loading..."
 msgstr "Laden..."
 
-#: ../src/core/gui/PageView.cpp:980
+#: ../src/core/gui/PageView.cpp:974
 msgid "Scroll to page {1}"
 msgstr "Zu Seite {1} gehen"
 
-#: ../src/core/gui/PageView.cpp:982
+#: ../src/core/gui/PageView.cpp:976
 msgid "Add missing page"
 msgstr "Fehlende Seite hinzufügen"
 
@@ -1905,9 +1905,25 @@ msgstr "ElementRange::parse(): Intervallgrenzen müssen in aufsteigender Reihenf
 msgid "ElementRange::parse(): element indices start with 1"
 msgstr "ElementRange::parse(): Elementindizes beginnen mit 1"
 
-#: ../src/util/OutputStream.cpp:24
+#: ../src/util/OutputStream.cpp:27
 msgid "Error opening file: \"{1}\""
 msgstr "Fehler beim Öffnen der Datei \"{1}\""
+
+#: ../src/util/OutputStream.cpp:48
+msgid "Error writing data to file: \"{1}\""
+msgstr ""
+
+#: ../src/util/OutputStream.cpp:49
+msgid "Error code {1}. Message:"
+msgstr ""
+
+#: ../src/util/OutputStream.cpp:69
+msgid "Error occurred while closing file: \"{1}\""
+msgstr ""
+
+#: ../src/util/OutputStream.cpp:70
+msgid "Error code {1}"
+msgstr ""
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -2228,59 +2244,59 @@ msgid "<b>Empty Toolbox</b>\n"
 msgstr "<b>Leerer Werkzeugkasten</b>\n"
 "<i>Menü: Ansicht → Werkzeugleiste</i>"
 
-#: ../ui/main.glade:504
+#: ../ui/main.glade:505
 msgid "Find previous occurrence of the search string"
 msgstr "Vorheriges Vorkommen des Textes suchen"
 
-#: ../ui/main.glade:526
+#: ../ui/main.glade:527
 msgid "Find next occurrence of the search string"
 msgstr "Nächstes Vorkommen des Textes suchen"
 
-#: ../ui/main.glade:728
+#: ../ui/main.glade:729
 msgid "Copy selected text"
 msgstr "Ausgewählten Text kopieren"
 
-#: ../ui/main.glade:750
+#: ../ui/main.glade:751
 msgid "Highlight selected text"
 msgstr "Ausgewählten Text hervorheben"
 
-#: ../ui/main.glade:770
+#: ../ui/main.glade:771
 msgid "Underline selected text"
 msgstr "Ausgewählten Text unterstreichen"
 
-#: ../ui/main.glade:790
+#: ../ui/main.glade:791
 msgid "Strikethrough selected text"
 msgstr "Ausgewählten Text durchstreichen"
 
-#: ../ui/main.glade:810
+#: ../ui/main.glade:811
 msgid "Toggle standard / region text selection"
 msgstr "Standard- / Bereichstext-Auswahl umschalten"
 
-#: ../ui/main.glade:838
+#: ../ui/main.glade:839
 msgid "Insert Page Before"
 msgstr "Seite davor einfügen"
 
-#: ../ui/main.glade:846
+#: ../ui/main.glade:847
 msgid "Insert Page After"
 msgstr "Seite danach einfügen"
 
-#: ../ui/main.glade:854 ../ui/main.glade:942
+#: ../ui/main.glade:855 ../ui/main.glade:943
 msgid "Duplicate"
 msgstr "Duplizieren"
 
-#: ../ui/main.glade:868 ../ui/main.glade:918
+#: ../ui/main.glade:869 ../ui/main.glade:919
 msgid "Move Up"
 msgstr "Nach vorne verschieben"
 
-#: ../ui/main.glade:876 ../ui/main.glade:926
+#: ../ui/main.glade:877 ../ui/main.glade:927
 msgid "Move Down"
 msgstr "Nach hinten verschieben"
 
-#: ../ui/main.glade:891
+#: ../ui/main.glade:892
 msgid "Edit (not implemented yet)"
 msgstr "Bearbeiten (noch nicht implementiert)"
 
-#: ../ui/main.glade:934
+#: ../ui/main.glade:935
 msgid "Merge Down"
 msgstr "Nach unten zusammenführen"
 
