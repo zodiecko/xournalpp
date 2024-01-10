@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-11-22 08:44\n"
+"POT-Creation-Date: 2024-01-10 17:48+0000\n"
+"PO-Revision-Date: 2024-01-10 17:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -22,39 +22,35 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
 msgstr "未設置音訊存放目錄或目錄位置不合法, 無法錄製聲音, 請到\"偏好設置 > 音訊錄製\"設定音訊存放目錄"
 
+#: ../src/core/control/Control.cpp:217
+msgid "Filesystem error: {2}"
+msgstr ""
+
 #: ../src/core/control/Control.cpp:229
-msgid "Autosave renamed from {1} to {2}"
-msgstr "自動存檔, 檔案名稱由{1} 改成{2}"
+msgid "Could not remove old autosave file \"{1}\": {2}"
+msgstr ""
 
-#: ../src/core/control/Control.cpp:240
-msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
-msgstr "無法將自動儲存檔案 \"{1}\" 重新命名至 \"{2}\"： {3}"
-
-#: ../src/core/control/Control.cpp:249
-msgid "Autosave failed with an error: {1}"
-msgstr "自動存檔失敗: {1}"
-
-#: ../src/core/control/Control.cpp:574
+#: ../src/core/control/Control.cpp:544
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "工具條配置\"{1}\"是預置的，要產生一個拷貝到編輯?"
 
-#: ../src/core/control/Control.cpp:577
+#: ../src/core/control/Control.cpp:547
 msgid "Yes"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:577
+#: ../src/core/control/Control.cpp:547
 msgid "No"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:756
+#: ../src/core/control/Control.cpp:726
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "沒有可以添加的PDF頁面。您可能需要重新開啟文件檔。"
 
-#: ../src/core/control/Control.cpp:770
+#: ../src/core/control/Control.cpp:740
 msgid "Unable to retrieve pdf page."
 msgstr "無法獲取PDF頁面。"
 
-#: ../src/core/control/Control.cpp:1336
+#: ../src/core/control/Control.cpp:1306
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -62,62 +58,62 @@ msgstr "請勿開啟自動保存檔案，否則它們可能會被覆寫！\n"
 "請將這些檔案複製到另一個檔案夾。\n"
 "檔案夾 {1} 內的檔案無法開啟。"
 
-#: ../src/core/control/Control.cpp:1350
+#: ../src/core/control/Control.cpp:1320
 msgid "file: {1}"
 msgstr "檔案: {1}"
 
-#: ../src/core/control/Control.cpp:1398
+#: ../src/core/control/Control.cpp:1368
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1401
+#: ../src/core/control/Control.cpp:1371
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1411
+#: ../src/core/control/Control.cpp:1381
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1419
+#: ../src/core/control/Control.cpp:1389
 msgid "Use proposed PDF"
 msgstr "使用建議的PDF"
 
-#: ../src/core/control/Control.cpp:1421
+#: ../src/core/control/Control.cpp:1391
 msgid "Select another PDF"
 msgstr "選擇其他PDF"
 
-#: ../src/core/control/Control.cpp:1422
+#: ../src/core/control/Control.cpp:1392
 msgid "Remove PDF Background"
 msgstr "去掉PDF背景"
 
-#: ../src/core/control/Control.cpp:1423 ../src/core/control/Control.cpp:1946
+#: ../src/core/control/Control.cpp:1393 ../src/core/control/Control.cpp:1916
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "取消"
 
-#: ../src/core/control/Control.cpp:1454
+#: ../src/core/control/Control.cpp:1424
 msgid "Error opening file \"{1}\""
 msgstr "打開檔案\"{1}\"出錯"
 
-#: ../src/core/control/Control.cpp:1462
+#: ../src/core/control/Control.cpp:1432
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "正在開啟的檔案格式版本筆目前Xournal++支持的文件格式版本更新， 可能無法正確開啟，仍要開啟？"
 
-#: ../src/core/control/Control.cpp:1624
+#: ../src/core/control/Control.cpp:1594
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "PDF檔案\"{1}\"標註出錯\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1728
+#: ../src/core/control/Control.cpp:1698
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "保存檔案"
 
-#: ../src/core/control/Control.cpp:1728
+#: ../src/core/control/Control.cpp:1698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -125,47 +121,47 @@ msgstr "保存檔案"
 msgid "_Cancel"
 msgstr "取消 (_C)"
 
-#: ../src/core/control/Control.cpp:1729
+#: ../src/core/control/Control.cpp:1699
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "儲存 (_S)"
 
-#: ../src/core/control/Control.cpp:1734
+#: ../src/core/control/Control.cpp:1704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ 檔案"
 
-#: ../src/core/control/Control.cpp:1781
+#: ../src/core/control/Control.cpp:1751
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1796
+#: ../src/core/control/Control.cpp:1766
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "選色"
 
-#: ../src/core/control/Control.cpp:1818
+#: ../src/core/control/Control.cpp:1788
 msgid "Unsaved Document"
 msgstr "未保存文檔"
 
-#: ../src/core/control/Control.cpp:1937
+#: ../src/core/control/Control.cpp:1907
 msgid "Document file was removed."
 msgstr "文檔已刪除。"
 
-#: ../src/core/control/Control.cpp:1937
+#: ../src/core/control/Control.cpp:1907
 msgid "This document is not saved yet."
 msgstr "此文件尚未存檔"
 
-#: ../src/core/control/Control.cpp:1938
+#: ../src/core/control/Control.cpp:1908
 msgid "Save As..."
 msgstr "另存為..."
 
-#: ../src/core/control/Control.cpp:1938 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1908 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "保存"
 
-#: ../src/core/control/Control.cpp:1943
+#: ../src/core/control/Control.cpp:1913
 msgid "Discard"
 msgstr "丟棄"
 
@@ -475,9 +471,13 @@ msgstr "顯示進階輸出選項"
 msgid "Error while autosaving: {1}"
 msgstr "自動儲存時發生錯誤：{1}"
 
-#: ../src/core/control/jobs/AutosaveJob.cpp:47
+#: ../src/core/control/jobs/AutosaveJob.cpp:45
 msgid "Autosaving to {1}"
 msgstr "自動儲存到 {1}"
+
+#: ../src/core/control/jobs/AutosaveJob.cpp:68
+msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
+msgstr "無法將自動儲存檔案 \"{1}\" 重新命名至 \"{2}\"： {3}"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:23
 msgid "Export PDF"
@@ -557,29 +557,29 @@ msgstr "輸出為PDF"
 msgid "Save file error, can't backup: {1}"
 msgstr ""
 
-#: ../src/core/control/latex/LatexGenerator.cpp:61
+#: ../src/core/control/latex/LatexGenerator.cpp:54
 msgid "Failed to parse LaTeX generator path: {1}"
 msgstr "無法剖析 LaTeX 產生器路徑: {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:72
+#: ../src/core/control/latex/LatexGenerator.cpp:65
 msgid "Failed to parse LaTeX generator command: {1}"
 msgstr "無法剖析 LaTeX 產生器指令: {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:78
+#: ../src/core/control/latex/LatexGenerator.cpp:71
 msgid "Failed to find LaTeX generator program in PATH: {1}\n\n"
 "Since installation is detected within Flatpak, you need to install the Flatpak freedesktop Tex Live extension. For example, by running:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
 msgstr ""
 
-#: ../src/core/control/latex/LatexGenerator.cpp:83
+#: ../src/core/control/latex/LatexGenerator.cpp:76
 msgid "Failed to find LaTeX generator program in PATH: {1}"
 msgstr "無法從 PATH: {1} 中找到 LaTeX 產生格式"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:91
+#: ../src/core/control/latex/LatexGenerator.cpp:84
 msgid "Could not save .tex file: {1}"
 msgstr "無法儲存 .tex 檔案： {1}"
 
-#: ../src/core/control/latex/LatexGenerator.cpp:105
+#: ../src/core/control/latex/LatexGenerator.cpp:98
 msgid "Could not start {1}: {2} (exit code: {3})"
 msgstr "無法啟動 {1}: {2} (退出代碼: {3})"
 
@@ -865,11 +865,11 @@ msgstr "屬性值\"{1}\"不能轉為size_t，其值為空值"
 msgid "Attribute \"{1}\" could not be parsed as size_t, the value is \"{2}\""
 msgstr "屬性值\"{1}\"不能轉為size_t，其值為\"{2}\""
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:249
+#: ../src/core/control/xojfile/SaveHandler.cpp:251
 msgid "Could not write background \"{1}\", {2}"
 msgstr "未能寫上背景\"{1}\", {2}"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:346
+#: ../src/core/control/xojfile/SaveHandler.cpp:348
 msgid "Could not write background \"{1}\". Continuing anyway."
 msgstr "未能寫上背景\"{1}\"，不管啦繼續哦..."
 
@@ -887,11 +887,11 @@ msgstr "無法播放錄音{1}"
 msgid "Loading..."
 msgstr "加載中..."
 
-#: ../src/core/gui/PageView.cpp:980
+#: ../src/core/gui/PageView.cpp:974
 msgid "Scroll to page {1}"
 msgstr ""
 
-#: ../src/core/gui/PageView.cpp:982
+#: ../src/core/gui/PageView.cpp:976
 msgid "Add missing page"
 msgstr "新增遺失的頁面"
 
@@ -1894,9 +1894,25 @@ msgstr "PageRange::parse(): 區段間隔必須使用遞增形式。"
 msgid "ElementRange::parse(): element indices start with 1"
 msgstr "ElementRange::parse(): 元素索引從 1 開始"
 
-#: ../src/util/OutputStream.cpp:24
+#: ../src/util/OutputStream.cpp:27
 msgid "Error opening file: \"{1}\""
 msgstr "打開檔案\"{1}\"出錯"
+
+#: ../src/util/OutputStream.cpp:48
+msgid "Error writing data to file: \"{1}\""
+msgstr ""
+
+#: ../src/util/OutputStream.cpp:49
+msgid "Error code {1}. Message:"
+msgstr ""
+
+#: ../src/util/OutputStream.cpp:69
+msgid "Error occurred while closing file: \"{1}\""
+msgstr ""
+
+#: ../src/util/OutputStream.cpp:70
+msgid "Error code {1}"
+msgstr ""
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -2216,59 +2232,59 @@ msgid "<b>Empty Toolbox</b>\n"
 msgstr "<b>空工具箱</b>\n"
 "            <i>菜單：查看/工具列</i>"
 
-#: ../ui/main.glade:504
+#: ../ui/main.glade:505
 msgid "Find previous occurrence of the search string"
 msgstr "向上查找搜索字串"
 
-#: ../ui/main.glade:526
+#: ../ui/main.glade:527
 msgid "Find next occurrence of the search string"
 msgstr "向下查找搜索字串"
 
-#: ../ui/main.glade:728
+#: ../ui/main.glade:729
 msgid "Copy selected text"
 msgstr "複製已選取文字"
 
-#: ../ui/main.glade:750
+#: ../ui/main.glade:751
 msgid "Highlight selected text"
 msgstr "高亮選擇的文字"
 
-#: ../ui/main.glade:770
+#: ../ui/main.glade:771
 msgid "Underline selected text"
 msgstr "將所選文字加上底線"
 
-#: ../ui/main.glade:790
+#: ../ui/main.glade:791
 msgid "Strikethrough selected text"
 msgstr "為選中文字添加刪除線"
 
-#: ../ui/main.glade:810
+#: ../ui/main.glade:811
 msgid "Toggle standard / region text selection"
 msgstr "切換標準/區域文本選擇"
 
-#: ../ui/main.glade:838
+#: ../ui/main.glade:839
 msgid "Insert Page Before"
 msgstr "在此前插入頁面"
 
-#: ../ui/main.glade:846
+#: ../ui/main.glade:847
 msgid "Insert Page After"
 msgstr "在此後插入頁面"
 
-#: ../ui/main.glade:854 ../ui/main.glade:942
+#: ../ui/main.glade:855 ../ui/main.glade:943
 msgid "Duplicate"
 msgstr "複製"
 
-#: ../ui/main.glade:868 ../ui/main.glade:918
+#: ../ui/main.glade:869 ../ui/main.glade:919
 msgid "Move Up"
 msgstr "向上移動"
 
-#: ../ui/main.glade:876 ../ui/main.glade:926
+#: ../ui/main.glade:877 ../ui/main.glade:927
 msgid "Move Down"
 msgstr "向下移動"
 
-#: ../ui/main.glade:891
+#: ../ui/main.glade:892
 msgid "Edit (not implemented yet)"
 msgstr "編輯(尚未執行)"
 
-#: ../ui/main.glade:934
+#: ../ui/main.glade:935
 msgid "Merge Down"
 msgstr "像下合併"
 
