@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:48+0000\n"
-"PO-Revision-Date: 2024-01-10 17:50\n"
+"POT-Creation-Date: 2024-01-10 17:49+0000\n"
+"PO-Revision-Date: 2024-01-10 18:58\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -31,27 +31,27 @@ msgstr ""
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:544
+#: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "La configurazione della Barra degli Strumenti \"{1}\" è predefinita, vuoi crearne una copia da modificare?"
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:549
 msgid "Yes"
 msgstr "Sì"
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:549
 msgid "No"
 msgstr "No"
 
-#: ../src/core/control/Control.cpp:726
+#: ../src/core/control/Control.cpp:728
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Non sono disponibili pagine pdf da aggiungere. Potrebbe essere necessario riaprire il documento prima."
 
-#: ../src/core/control/Control.cpp:740
+#: ../src/core/control/Control.cpp:742
 msgid "Unable to retrieve pdf page."
 msgstr "Impossibile recuperare la pagina pdf."
 
-#: ../src/core/control/Control.cpp:1306
+#: ../src/core/control/Control.cpp:1308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -59,64 +59,64 @@ msgstr "Non aprire file di Autosalvataggio. Potrebbero essere sovrascritti!\n"
 "Copia i files in un'altra cartella.\n"
 "I files nella cartella {1} non possono essere aperti."
 
-#: ../src/core/control/Control.cpp:1320
+#: ../src/core/control/Control.cpp:1322
 msgid "file: {1}"
 msgstr "file: {1}"
 
-#: ../src/core/control/Control.cpp:1368
+#: ../src/core/control/Control.cpp:1370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Il file di sfondo allegato non è stato trovato. Potrebbe essere stato spostato, rinominato o eliminato."
 
-#: ../src/core/control/Control.cpp:1371
+#: ../src/core/control/Control.cpp:1373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Il file di sfondo \"{1}\" non è stato trovato. Potrebbe essere stato spostato, rinominato o eliminato.\n"
 "È stato visto l'ultima volta in: \"{2}\""
 
-#: ../src/core/control/Control.cpp:1381
+#: ../src/core/control/Control.cpp:1383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "File sostituto proposto: \"{1}\""
 
-#: ../src/core/control/Control.cpp:1389
+#: ../src/core/control/Control.cpp:1391
 msgid "Use proposed PDF"
 msgstr "Usa PDF proposto"
 
-#: ../src/core/control/Control.cpp:1391
+#: ../src/core/control/Control.cpp:1393
 msgid "Select another PDF"
 msgstr "Seleziona un altro PDF"
 
-#: ../src/core/control/Control.cpp:1392
+#: ../src/core/control/Control.cpp:1394
 msgid "Remove PDF Background"
 msgstr "Rimuovi lo sfondo PDF"
 
-#: ../src/core/control/Control.cpp:1393 ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1395 ../src/core/control/Control.cpp:1918
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Annulla"
 
-#: ../src/core/control/Control.cpp:1424
+#: ../src/core/control/Control.cpp:1426
 msgid "Error opening file \"{1}\""
 msgstr "Errore nell'apertura del file \"{1}\""
 
-#: ../src/core/control/Control.cpp:1432
+#: ../src/core/control/Control.cpp:1434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Il file caricato ha una versione di file più recente di quella attualmente supportata da questa versione di Xournal++, quindi potrebbe non caricare correttamente. Aprire comunque?"
 
-#: ../src/core/control/Control.cpp:1594
+#: ../src/core/control/Control.cpp:1596
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Errore nell'annotazione del PDF \"{1}\"\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1698
+#: ../src/core/control/Control.cpp:1700
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Salva File"
 
-#: ../src/core/control/Control.cpp:1698
+#: ../src/core/control/Control.cpp:1700
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -124,47 +124,47 @@ msgstr "Salva File"
 msgid "_Cancel"
 msgstr "_Annulla"
 
-#: ../src/core/control/Control.cpp:1699
+#: ../src/core/control/Control.cpp:1701
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Salva"
 
-#: ../src/core/control/Control.cpp:1704
+#: ../src/core/control/Control.cpp:1706
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "File Xournal++"
 
-#: ../src/core/control/Control.cpp:1751
+#: ../src/core/control/Control.cpp:1753
 msgid "Select font"
 msgstr "Seleziona carattere"
 
-#: ../src/core/control/Control.cpp:1766
+#: ../src/core/control/Control.cpp:1768
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Seleziona colore"
 
-#: ../src/core/control/Control.cpp:1788
+#: ../src/core/control/Control.cpp:1790
 msgid "Unsaved Document"
 msgstr "Documento non Salvato"
 
-#: ../src/core/control/Control.cpp:1907
+#: ../src/core/control/Control.cpp:1909
 msgid "Document file was removed."
 msgstr "Il file del documento è stato rimosso."
 
-#: ../src/core/control/Control.cpp:1907
+#: ../src/core/control/Control.cpp:1909
 msgid "This document is not saved yet."
 msgstr "Questo documento non è ancora stato salvato."
 
-#: ../src/core/control/Control.cpp:1908
+#: ../src/core/control/Control.cpp:1910
 msgid "Save As..."
 msgstr "Salva come..."
 
-#: ../src/core/control/Control.cpp:1908 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1910 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Salva"
 
-#: ../src/core/control/Control.cpp:1913
+#: ../src/core/control/Control.cpp:1915
 msgid "Discard"
 msgstr "Non salvare"
 
@@ -690,27 +690,23 @@ msgstr "Modello Xournal++"
 msgid "Supported files"
 msgstr "Files supportati"
 
-#: ../src/core/control/tools/EditSelection.cpp:462
+#: ../src/core/control/tools/EditSelection.cpp:455
 msgid "Arrange"
 msgstr "Disponi"
 
-#: ../src/core/control/tools/EditSelection.cpp:467
-msgid "Bring to front"
-msgstr "Porta in primo piano"
-
-#: ../src/core/control/tools/EditSelection.cpp:478
+#: ../src/core/control/tools/EditSelection.cpp:470
 msgid "Bring forward"
 msgstr "Porta avanti"
 
-#: ../src/core/control/tools/EditSelection.cpp:490
+#: ../src/core/control/tools/EditSelection.cpp:481
 msgid "Send backward"
 msgstr "Invia indietro"
 
-#: ../src/core/control/tools/EditSelection.cpp:497
+#: ../src/core/control/tools/EditSelection.cpp:488
 msgid "Send to back"
 msgstr "Invia in fondo"
 
-#: ../src/core/control/tools/ImageHandler.cpp:72
+#: ../src/core/control/tools/ImageHandler.cpp:70
 msgid "Failed to load image, could not determine image size!"
 msgstr "Impossibile caricare l'immagine, non è possibile determinare la dimensione dell'immagine!"
 
@@ -788,52 +784,52 @@ msgstr "Tipo di dominio sconosciuto: {1}"
 msgid "Unknown background type: {1}"
 msgstr "Tipo di sfondo sconosciuto: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:554
+#: ../src/core/control/xojfile/LoadHandler.cpp:555
 msgid "Error reading width of a stroke: {1}"
 msgstr "Errore nella lettura dello spessore del tratto: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:622
+#: ../src/core/control/xojfile/LoadHandler.cpp:623
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr "Tipo sconosciuto di tratto: \"{1}\", si presume che sia tondo"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:640
+#: ../src/core/control/xojfile/LoadHandler.cpp:641
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Tipo di tratto sconosciuto: \"{1}\", ipotizzo penna"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:808
-#: ../src/core/control/xojfile/LoadHandler.cpp:824
-#: ../src/core/control/xojfile/LoadHandler.cpp:1138
-#: ../src/core/control/xojfile/LoadHandler.cpp:1152
+#: ../src/core/control/xojfile/LoadHandler.cpp:812
+#: ../src/core/control/xojfile/LoadHandler.cpp:828
+#: ../src/core/control/xojfile/LoadHandler.cpp:1142
+#: ../src/core/control/xojfile/LoadHandler.cpp:1156
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "Impossibile leggere l'immagine: {1}. Messaggio d'errore: {2} "
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:817
-#: ../src/core/control/xojfile/LoadHandler.cpp:1145
-#: ../src/core/control/xojfile/LoadHandler.cpp:1163
+#: ../src/core/control/xojfile/LoadHandler.cpp:821
+#: ../src/core/control/xojfile/LoadHandler.cpp:1149
+#: ../src/core/control/xojfile/LoadHandler.cpp:1167
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "Impossibile leggere l'immagine: {1}. Messaggio d'errore: {2} Dimensione fornita errata"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:836
+#: ../src/core/control/xojfile/LoadHandler.cpp:840
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "Impossibile leggere l'immagine: {1}. Messaggio d'errore: {2} Impossibile leggere il file"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:845
+#: ../src/core/control/xojfile/LoadHandler.cpp:849
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "Impossibile leggere l'immagine: {1}. Messaggio d'errore: {2} Impossibile scrivere il file"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1032
+#: ../src/core/control/xojfile/LoadHandler.cpp:1036
 msgid "Wrong count of points ({1})"
 msgstr "Conto dei punti sbagliato ({1})"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1048
+#: ../src/core/control/xojfile/LoadHandler.cpp:1052
 msgid "xoj-File: {1}"
 msgstr "xoj-File: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1049
+#: ../src/core/control/xojfile/LoadHandler.cpp:1053
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr "Il numero di valori di pressione è sbagliato; dato {1}, previsto {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1182
+#: ../src/core/control/xojfile/LoadHandler.cpp:1186
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "Il file temporaneo richiesto non è stato trovato per essere allegato {1}"
 
@@ -983,7 +979,7 @@ msgid "Text"
 msgstr "Testo"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:91
-#: ../src/core/undo/InsertUndoAction.cpp:37
+#: ../src/core/undo/InsertUndoAction.cpp:29
 msgid "Insert image"
 msgstr "Inserisci immagine"
 
@@ -1070,7 +1066,7 @@ msgstr "Disegna il sistema di coordinate"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:74
+#: ../src/core/undo/RecognizerUndoAction.cpp:55
 msgid "Stroke recognizer"
 msgstr "Riconoscitore di Forme"
 
@@ -1378,7 +1374,7 @@ msgid "Search"
 msgstr "Cerca"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:64
+#: ../src/core/undo/DeleteUndoAction.cpp:66
 msgid "Delete"
 msgstr "Cancella"
 
@@ -1743,33 +1739,33 @@ msgid "Failed to initialize PDF Cairo surface"
 msgstr "Impossibile inizializzare la superficie Cairo PDF"
 
 #: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:61
-#: ../src/core/undo/EraseUndoAction.cpp:64
+#: ../src/core/undo/DeleteUndoAction.cpp:63
+#: ../src/core/undo/EraseUndoAction.cpp:65
 msgid "Erase stroke"
 msgstr "Cancella tratto"
 
 #: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:72
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "elements"
 msgstr "elementi"
 
 #: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "stroke"
 msgstr "tratto"
 
 #: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:83
+#: ../src/core/undo/DeleteUndoAction.cpp:85
 msgid "image"
 msgstr "immagine"
 
 #: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:86
+#: ../src/core/undo/DeleteUndoAction.cpp:88
 msgid "latex"
 msgstr "LaTeX"
 
 #: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:89
+#: ../src/core/undo/DeleteUndoAction.cpp:91
 msgid "text"
 msgstr "testo"
 
@@ -1801,19 +1797,19 @@ msgstr "Pagina eliminata"
 msgid "Insert layer"
 msgstr "Inserisci livello"
 
-#: ../src/core/undo/InsertUndoAction.cpp:33
+#: ../src/core/undo/InsertUndoAction.cpp:25
 msgid "Draw stroke"
 msgstr "Disegna tratto"
 
-#: ../src/core/undo/InsertUndoAction.cpp:35
+#: ../src/core/undo/InsertUndoAction.cpp:27
 msgid "Write text"
 msgstr "Scrivi testo"
 
-#: ../src/core/undo/InsertUndoAction.cpp:39
+#: ../src/core/undo/InsertUndoAction.cpp:31
 msgid "Insert latex"
 msgstr "Inserisci latex"
 
-#: ../src/core/undo/InsertUndoAction.cpp:82
+#: ../src/core/undo/InsertUndoAction.cpp:64
 msgid "Insert elements"
 msgstr "Inserisci elementi"
 
@@ -1825,7 +1821,7 @@ msgstr "Rinomina livello"
 msgid "Change line style"
 msgstr "Cambia stile linea"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:32
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
 msgid "Merge layer down"
 msgstr "Unisci al livello sottostante"
 
@@ -1833,7 +1829,7 @@ msgstr "Unisci al livello sottostante"
 msgid "Move layer"
 msgstr "Muovi livello"
 
-#: ../src/core/undo/MoveUndoAction.cpp:19
+#: ../src/core/undo/MoveUndoAction.cpp:20
 msgid "Move"
 msgstr "Muovi"
 
@@ -1865,7 +1861,7 @@ msgstr "Muovi pagina su"
 msgid "Move page downwards"
 msgstr "Muovi pagina giù"
 
-#: ../src/core/undo/TextBoxUndoAction.cpp:43
+#: ../src/core/undo/TextBoxUndoAction.cpp:26
 msgid "Edit text"
 msgstr "Modifica testo"
 
