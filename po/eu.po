@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:48+0000\n"
-"PO-Revision-Date: 2024-01-10 17:50\n"
+"POT-Creation-Date: 2024-01-10 17:49+0000\n"
+"PO-Revision-Date: 2024-01-10 18:58\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -31,27 +31,27 @@ msgstr ""
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:544
+#: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Toolbarconfiguration \"{1}\" lehenetsia dago, nahi duzu kopia bat sortu bera editatzeko?"
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:549
 msgid "Yes"
 msgstr "Bai"
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:549
 msgid "No"
 msgstr "Ez"
 
-#: ../src/core/control/Control.cpp:726
+#: ../src/core/control/Control.cpp:728
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Ez dago pdf orririk eransteko. Komeni da aurretik dokumentua berriro irekitzea."
 
-#: ../src/core/control/Control.cpp:740
+#: ../src/core/control/Control.cpp:742
 msgid "Unable to retrieve pdf page."
 msgstr "Ezin izan da pdf orria berreskuratu."
 
-#: ../src/core/control/Control.cpp:1306
+#: ../src/core/control/Control.cpp:1308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -59,64 +59,64 @@ msgstr "Ez ireki automatikoki gordetako fitxategiak. Agian gainidatziko dira!\n"
 "Kopiatu fitxategiak beste karpeta batera.\n"
 "Ezin dira {1} karpetako fitxategiak ireki."
 
-#: ../src/core/control/Control.cpp:1320
+#: ../src/core/control/Control.cpp:1322
 msgid "file: {1}"
 msgstr "fitxategia: {1}"
 
-#: ../src/core/control/Control.cpp:1368
+#: ../src/core/control/Control.cpp:1370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Ezin izan da erantsitako atzeko planoa aurkitu. Baliteke mugitu, izena aldatu edo ezabatu izana."
 
-#: ../src/core/control/Control.cpp:1371
+#: ../src/core/control/Control.cpp:1373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Ezin izan da atzeko planoaren {1} fitxategia aurkitu. Baliteke mugitu, izena aldatu edo ezabatu izana.\n"
 "Ikusi zen azken aldia: \"{2}\""
 
-#: ../src/core/control/Control.cpp:1381
+#: ../src/core/control/Control.cpp:1383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "Proposatutako ordezko fitxategia: \"{1}\""
 
-#: ../src/core/control/Control.cpp:1389
+#: ../src/core/control/Control.cpp:1391
 msgid "Use proposed PDF"
 msgstr "Erabili proposatutako PDFa"
 
-#: ../src/core/control/Control.cpp:1391
+#: ../src/core/control/Control.cpp:1393
 msgid "Select another PDF"
 msgstr "Hautatu beste PDF"
 
-#: ../src/core/control/Control.cpp:1392
+#: ../src/core/control/Control.cpp:1394
 msgid "Remove PDF Background"
 msgstr "Kendu atzeko planoko PDFa"
 
-#: ../src/core/control/Control.cpp:1393 ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1395 ../src/core/control/Control.cpp:1918
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Utzi"
 
-#: ../src/core/control/Control.cpp:1424
+#: ../src/core/control/Control.cpp:1426
 msgid "Error opening file \"{1}\""
 msgstr "Errorea \"{1}\" fitxategia irekitzean"
 
-#: ../src/core/control/Control.cpp:1432
+#: ../src/core/control/Control.cpp:1434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Kargatuko den fitxategia Xournal++en uneko bertsiok onartzen duena baino bertsio berriago batez sortu da, beraz baliteke behar bezala ez kargatzea. Ireki edonola?"
 
-#: ../src/core/control/Control.cpp:1594
+#: ../src/core/control/Control.cpp:1596
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Errorea PDF oharrak fitxategian \"{1}\"\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1698
+#: ../src/core/control/Control.cpp:1700
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Gorde fitxategia"
 
-#: ../src/core/control/Control.cpp:1698
+#: ../src/core/control/Control.cpp:1700
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -124,47 +124,47 @@ msgstr "Gorde fitxategia"
 msgid "_Cancel"
 msgstr "_Utzi"
 
-#: ../src/core/control/Control.cpp:1699
+#: ../src/core/control/Control.cpp:1701
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Gorde"
 
-#: ../src/core/control/Control.cpp:1704
+#: ../src/core/control/Control.cpp:1706
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ fitxategiak"
 
-#: ../src/core/control/Control.cpp:1751
+#: ../src/core/control/Control.cpp:1753
 msgid "Select font"
 msgstr "Hautatu letra mota"
 
-#: ../src/core/control/Control.cpp:1766
+#: ../src/core/control/Control.cpp:1768
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Hautatu kolorea"
 
-#: ../src/core/control/Control.cpp:1788
+#: ../src/core/control/Control.cpp:1790
 msgid "Unsaved Document"
 msgstr "Gorde gabeko dokumentua"
 
-#: ../src/core/control/Control.cpp:1907
+#: ../src/core/control/Control.cpp:1909
 msgid "Document file was removed."
 msgstr "Dokumentu fitxategia kendu da."
 
-#: ../src/core/control/Control.cpp:1907
+#: ../src/core/control/Control.cpp:1909
 msgid "This document is not saved yet."
 msgstr "Dokumentu hau oraindik ez da gorde."
 
-#: ../src/core/control/Control.cpp:1908
+#: ../src/core/control/Control.cpp:1910
 msgid "Save As..."
 msgstr "Gorde honela..."
 
-#: ../src/core/control/Control.cpp:1908 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1910 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Gorde"
 
-#: ../src/core/control/Control.cpp:1913
+#: ../src/core/control/Control.cpp:1915
 msgid "Discard"
 msgstr "Baztertu"
 
@@ -690,27 +690,23 @@ msgstr "Xournal++ txantiloia"
 msgid "Supported files"
 msgstr "Fitxategi onartuak"
 
-#: ../src/core/control/tools/EditSelection.cpp:462
+#: ../src/core/control/tools/EditSelection.cpp:455
 msgid "Arrange"
 msgstr "Antolatu"
 
-#: ../src/core/control/tools/EditSelection.cpp:467
-msgid "Bring to front"
-msgstr "Ekarri aurrera"
-
-#: ../src/core/control/tools/EditSelection.cpp:478
+#: ../src/core/control/tools/EditSelection.cpp:470
 msgid "Bring forward"
 msgstr "Ekarri aurrerago"
 
-#: ../src/core/control/tools/EditSelection.cpp:490
+#: ../src/core/control/tools/EditSelection.cpp:481
 msgid "Send backward"
 msgstr "Eraman atzerago"
 
-#: ../src/core/control/tools/EditSelection.cpp:497
+#: ../src/core/control/tools/EditSelection.cpp:488
 msgid "Send to back"
 msgstr "Eraman atzera"
 
-#: ../src/core/control/tools/ImageHandler.cpp:72
+#: ../src/core/control/tools/ImageHandler.cpp:70
 msgid "Failed to load image, could not determine image size!"
 msgstr "Ezin izan da irudia kargatu, ezin izan da zehaztu irudiaren tamaina!"
 
@@ -788,52 +784,52 @@ msgstr "Domeinu mota ezezaguna: {1}"
 msgid "Unknown background type: {1}"
 msgstr "Atzeko plano mota ezezaguna: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:554
+#: ../src/core/control/xojfile/LoadHandler.cpp:555
 msgid "Error reading width of a stroke: {1}"
 msgstr "Errorea trazuaren zabalera irakurtzean: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:622
+#: ../src/core/control/xojfile/LoadHandler.cpp:623
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr "Trazu mota ezezaguna: \"{1}\", biribila suposatzen da"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:640
+#: ../src/core/control/xojfile/LoadHandler.cpp:641
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Trazu mota ezezaguna: {1}, arkatza erabiliko da"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:808
-#: ../src/core/control/xojfile/LoadHandler.cpp:824
-#: ../src/core/control/xojfile/LoadHandler.cpp:1138
-#: ../src/core/control/xojfile/LoadHandler.cpp:1152
+#: ../src/core/control/xojfile/LoadHandler.cpp:812
+#: ../src/core/control/xojfile/LoadHandler.cpp:828
+#: ../src/core/control/xojfile/LoadHandler.cpp:1142
+#: ../src/core/control/xojfile/LoadHandler.cpp:1156
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:817
-#: ../src/core/control/xojfile/LoadHandler.cpp:1145
-#: ../src/core/control/xojfile/LoadHandler.cpp:1163
+#: ../src/core/control/xojfile/LoadHandler.cpp:821
+#: ../src/core/control/xojfile/LoadHandler.cpp:1149
+#: ../src/core/control/xojfile/LoadHandler.cpp:1167
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: ez da fitxategi-tamaina baliozkoa"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:836
+#: ../src/core/control/xojfile/LoadHandler.cpp:840
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: ezin da fitxategia irakurri"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:845
+#: ../src/core/control/xojfile/LoadHandler.cpp:849
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: ezin da fitxategia idatzi"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1032
+#: ../src/core/control/xojfile/LoadHandler.cpp:1036
 msgid "Wrong count of points ({1})"
 msgstr "Puntuen zenbaketa okerra ({1})"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1048
+#: ../src/core/control/xojfile/LoadHandler.cpp:1052
 msgid "xoj-File: {1}"
 msgstr "xoj-fitxategia: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1049
+#: ../src/core/control/xojfile/LoadHandler.cpp:1053
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr "Presio-balio kopuru okerra, eskuratua {1}, espero zen {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1182
+#: ../src/core/control/xojfile/LoadHandler.cpp:1186
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "Eskatutako behin-behineko fitxategia ez da aurkitu eranskinean {1}"
 
@@ -983,7 +979,7 @@ msgid "Text"
 msgstr "Testua"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:91
-#: ../src/core/undo/InsertUndoAction.cpp:37
+#: ../src/core/undo/InsertUndoAction.cpp:29
 msgid "Insert image"
 msgstr "Txertatu irudia"
 
@@ -1070,7 +1066,7 @@ msgstr "Marraztu koordenatu ardatzak"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:74
+#: ../src/core/undo/RecognizerUndoAction.cpp:55
 msgid "Stroke recognizer"
 msgstr "Trazuen identifikatzailea"
 
@@ -1378,7 +1374,7 @@ msgid "Search"
 msgstr "Bilatu"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:64
+#: ../src/core/undo/DeleteUndoAction.cpp:66
 msgid "Delete"
 msgstr "Ezabatu"
 
@@ -1743,33 +1739,33 @@ msgid "Failed to initialize PDF Cairo surface"
 msgstr "Akats bat gertatu da Cairo PDF orriaren azalera abiaraztean"
 
 #: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:61
-#: ../src/core/undo/EraseUndoAction.cpp:64
+#: ../src/core/undo/DeleteUndoAction.cpp:63
+#: ../src/core/undo/EraseUndoAction.cpp:65
 msgid "Erase stroke"
 msgstr "Ezabatu trazua"
 
 #: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:72
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "elements"
 msgstr "elementuak"
 
 #: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "stroke"
 msgstr "trazua"
 
 #: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:83
+#: ../src/core/undo/DeleteUndoAction.cpp:85
 msgid "image"
 msgstr "irudia"
 
 #: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:86
+#: ../src/core/undo/DeleteUndoAction.cpp:88
 msgid "latex"
 msgstr "latex"
 
 #: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:89
+#: ../src/core/undo/DeleteUndoAction.cpp:91
 msgid "text"
 msgstr "testua"
 
@@ -1801,19 +1797,19 @@ msgstr "Orria ezabatua"
 msgid "Insert layer"
 msgstr "Txertatu geruza"
 
-#: ../src/core/undo/InsertUndoAction.cpp:33
+#: ../src/core/undo/InsertUndoAction.cpp:25
 msgid "Draw stroke"
 msgstr "Marraztu trazua"
 
-#: ../src/core/undo/InsertUndoAction.cpp:35
+#: ../src/core/undo/InsertUndoAction.cpp:27
 msgid "Write text"
 msgstr "Idatzi testua"
 
-#: ../src/core/undo/InsertUndoAction.cpp:39
+#: ../src/core/undo/InsertUndoAction.cpp:31
 msgid "Insert latex"
 msgstr "Txertatu latex"
 
-#: ../src/core/undo/InsertUndoAction.cpp:82
+#: ../src/core/undo/InsertUndoAction.cpp:64
 msgid "Insert elements"
 msgstr "Txertatu elementuak"
 
@@ -1825,7 +1821,7 @@ msgstr "Berrizendatu geruza"
 msgid "Change line style"
 msgstr "Aldatu lerroaren estiloa"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:32
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
 msgid "Merge layer down"
 msgstr "Batu beheko geruzarekin"
 
@@ -1833,7 +1829,7 @@ msgstr "Batu beheko geruzarekin"
 msgid "Move layer"
 msgstr "Mugitu geruza"
 
-#: ../src/core/undo/MoveUndoAction.cpp:19
+#: ../src/core/undo/MoveUndoAction.cpp:20
 msgid "Move"
 msgstr "Mugitu"
 
@@ -1865,7 +1861,7 @@ msgstr "Igo orria"
 msgid "Move page downwards"
 msgstr "Jaitsi orria"
 
-#: ../src/core/undo/TextBoxUndoAction.cpp:43
+#: ../src/core/undo/TextBoxUndoAction.cpp:26
 msgid "Edit text"
 msgstr "Editatu testua"
 
