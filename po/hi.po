@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:48+0000\n"
-"PO-Revision-Date: 2024-01-10 17:50\n"
+"POT-Creation-Date: 2024-01-10 17:49+0000\n"
+"PO-Revision-Date: 2024-01-10 18:59\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -30,27 +30,27 @@ msgstr ""
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:544
+#: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:549
 msgid "Yes"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:549
 msgid "No"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:726
+#: ../src/core/control/Control.cpp:728
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "संलग्न करने के लिए कोई पीडीएफ पृष्ठ उपलब्ध नहीं है। आपको पहले दस्तावेज़ को फिर से खोलना पड़ सकता है।"
 
-#: ../src/core/control/Control.cpp:740
+#: ../src/core/control/Control.cpp:742
 msgid "Unable to retrieve pdf page."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1306
+#: ../src/core/control/Control.cpp:1308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -58,61 +58,61 @@ msgstr "Autosave files खुला नहीं. वे अतिव्या�
 "फ़ाइलों को किसी अन्य फ़ोल्डर में कॉपी करें।\n"
 "फ़ोल्डर {1} से फ़ाइलें खोल नहीं जा सकती हैं।"
 
-#: ../src/core/control/Control.cpp:1320
+#: ../src/core/control/Control.cpp:1322
 msgid "file: {1}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1368
+#: ../src/core/control/Control.cpp:1370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1371
+#: ../src/core/control/Control.cpp:1373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1381
+#: ../src/core/control/Control.cpp:1383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1389
+#: ../src/core/control/Control.cpp:1391
 msgid "Use proposed PDF"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1391
+#: ../src/core/control/Control.cpp:1393
 msgid "Select another PDF"
 msgstr "एक और PDF का चयन करें"
 
-#: ../src/core/control/Control.cpp:1392
+#: ../src/core/control/Control.cpp:1394
 msgid "Remove PDF Background"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1393 ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1395 ../src/core/control/Control.cpp:1918
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "रद्द करें"
 
-#: ../src/core/control/Control.cpp:1424
+#: ../src/core/control/Control.cpp:1426
 msgid "Error opening file \"{1}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1432
+#: ../src/core/control/Control.cpp:1434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1594
+#: ../src/core/control/Control.cpp:1596
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1698
+#: ../src/core/control/Control.cpp:1700
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "फ़ाइल सेव करें"
 
-#: ../src/core/control/Control.cpp:1698
+#: ../src/core/control/Control.cpp:1700
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -120,47 +120,47 @@ msgstr "फ़ाइल सेव करें"
 msgid "_Cancel"
 msgstr "_कैंसेल"
 
-#: ../src/core/control/Control.cpp:1699
+#: ../src/core/control/Control.cpp:1701
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_सहेजें"
 
-#: ../src/core/control/Control.cpp:1704
+#: ../src/core/control/Control.cpp:1706
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ फ़ाइलें"
 
-#: ../src/core/control/Control.cpp:1751
+#: ../src/core/control/Control.cpp:1753
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1766
+#: ../src/core/control/Control.cpp:1768
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "रंग चुनें"
 
-#: ../src/core/control/Control.cpp:1788
+#: ../src/core/control/Control.cpp:1790
 msgid "Unsaved Document"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1907
+#: ../src/core/control/Control.cpp:1909
 msgid "Document file was removed."
 msgstr "दस्तावेज़ फ़ाइल को हटा दिया गया था।."
 
-#: ../src/core/control/Control.cpp:1907
+#: ../src/core/control/Control.cpp:1909
 msgid "This document is not saved yet."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1908
+#: ../src/core/control/Control.cpp:1910
 msgid "Save As..."
 msgstr "के रूप में सहेजें..."
 
-#: ../src/core/control/Control.cpp:1908 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1910 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "सहेजें"
 
-#: ../src/core/control/Control.cpp:1913
+#: ../src/core/control/Control.cpp:1915
 msgid "Discard"
 msgstr "रद्द करें"
 
@@ -669,27 +669,23 @@ msgstr "Xournal++ टेम्पलेट"
 msgid "Supported files"
 msgstr "सभी समर्थित फाइलें"
 
-#: ../src/core/control/tools/EditSelection.cpp:462
+#: ../src/core/control/tools/EditSelection.cpp:455
 msgid "Arrange"
 msgstr "व्यवस्थित करें"
 
-#: ../src/core/control/tools/EditSelection.cpp:467
-msgid "Bring to front"
-msgstr "सबके सामने लाएँ"
-
-#: ../src/core/control/tools/EditSelection.cpp:478
+#: ../src/core/control/tools/EditSelection.cpp:470
 msgid "Bring forward"
 msgstr "सामने लाएं"
 
-#: ../src/core/control/tools/EditSelection.cpp:490
+#: ../src/core/control/tools/EditSelection.cpp:481
 msgid "Send backward"
 msgstr "पीचे भीजे"
 
-#: ../src/core/control/tools/EditSelection.cpp:497
+#: ../src/core/control/tools/EditSelection.cpp:488
 msgid "Send to back"
 msgstr "पीछे भेजें"
 
-#: ../src/core/control/tools/ImageHandler.cpp:72
+#: ../src/core/control/tools/ImageHandler.cpp:70
 msgid "Failed to load image, could not determine image size!"
 msgstr ""
 
@@ -767,52 +763,52 @@ msgstr ""
 msgid "Unknown background type: {1}"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:554
+#: ../src/core/control/xojfile/LoadHandler.cpp:555
 msgid "Error reading width of a stroke: {1}"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:622
+#: ../src/core/control/xojfile/LoadHandler.cpp:623
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:640
+#: ../src/core/control/xojfile/LoadHandler.cpp:641
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:808
-#: ../src/core/control/xojfile/LoadHandler.cpp:824
-#: ../src/core/control/xojfile/LoadHandler.cpp:1138
-#: ../src/core/control/xojfile/LoadHandler.cpp:1152
+#: ../src/core/control/xojfile/LoadHandler.cpp:812
+#: ../src/core/control/xojfile/LoadHandler.cpp:828
+#: ../src/core/control/xojfile/LoadHandler.cpp:1142
+#: ../src/core/control/xojfile/LoadHandler.cpp:1156
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "Could not open attachment: {1}. Error message: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:817
-#: ../src/core/control/xojfile/LoadHandler.cpp:1145
-#: ../src/core/control/xojfile/LoadHandler.cpp:1163
+#: ../src/core/control/xojfile/LoadHandler.cpp:821
+#: ../src/core/control/xojfile/LoadHandler.cpp:1149
+#: ../src/core/control/xojfile/LoadHandler.cpp:1167
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "नहीं खुल सकता: {1}। त्रुटि संदेश: उपलब्ध नहीं है"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:836
+#: ../src/core/control/xojfile/LoadHandler.cpp:840
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "{1} नहीं खुल सकता। त्रुटि संदेश: फ़ाइल को नहीं पढ़ सकता"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:845
+#: ../src/core/control/xojfile/LoadHandler.cpp:849
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "नहीं खुल सकता: {1}। त्रुटि संदेश: फ़ाइल नहीं लिख सकता"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1032
+#: ../src/core/control/xojfile/LoadHandler.cpp:1036
 msgid "Wrong count of points ({1})"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1048
+#: ../src/core/control/xojfile/LoadHandler.cpp:1052
 msgid "xoj-File: {1}"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1049
+#: ../src/core/control/xojfile/LoadHandler.cpp:1053
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1182
+#: ../src/core/control/xojfile/LoadHandler.cpp:1186
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "अनुरोधित अस्थायी फ़ाइल संलग्नक के लिए नहीं मिली थी {1}"
 
@@ -962,7 +958,7 @@ msgid "Text"
 msgstr "शब्द"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:91
-#: ../src/core/undo/InsertUndoAction.cpp:37
+#: ../src/core/undo/InsertUndoAction.cpp:29
 msgid "Insert image"
 msgstr "तस्वीर डालें"
 
@@ -1049,7 +1045,7 @@ msgstr "निर्देश तंत्र बनाए"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:74
+#: ../src/core/undo/RecognizerUndoAction.cpp:55
 msgid "Stroke recognizer"
 msgstr "स्ट्रोक Recognizer"
 
@@ -1356,7 +1352,7 @@ msgid "Search"
 msgstr "खोजें"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:64
+#: ../src/core/undo/DeleteUndoAction.cpp:66
 msgid "Delete"
 msgstr "मिटाए"
 
@@ -1721,33 +1717,33 @@ msgid "Failed to initialize PDF Cairo surface"
 msgstr ""
 
 #: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:61
-#: ../src/core/undo/EraseUndoAction.cpp:64
+#: ../src/core/undo/DeleteUndoAction.cpp:63
+#: ../src/core/undo/EraseUndoAction.cpp:65
 msgid "Erase stroke"
 msgstr "लिखाई मिटाएँ"
 
 #: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:72
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "elements"
 msgstr ""
 
 #: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "stroke"
 msgstr ""
 
 #: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:83
+#: ../src/core/undo/DeleteUndoAction.cpp:85
 msgid "image"
 msgstr ""
 
 #: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:86
+#: ../src/core/undo/DeleteUndoAction.cpp:88
 msgid "latex"
 msgstr ""
 
 #: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:89
+#: ../src/core/undo/DeleteUndoAction.cpp:91
 msgid "text"
 msgstr ""
 
@@ -1779,19 +1775,19 @@ msgstr ""
 msgid "Insert layer"
 msgstr "परत जोड़ें"
 
-#: ../src/core/undo/InsertUndoAction.cpp:33
+#: ../src/core/undo/InsertUndoAction.cpp:25
 msgid "Draw stroke"
 msgstr ""
 
-#: ../src/core/undo/InsertUndoAction.cpp:35
+#: ../src/core/undo/InsertUndoAction.cpp:27
 msgid "Write text"
 msgstr ""
 
-#: ../src/core/undo/InsertUndoAction.cpp:39
+#: ../src/core/undo/InsertUndoAction.cpp:31
 msgid "Insert latex"
 msgstr "Latex डालें"
 
-#: ../src/core/undo/InsertUndoAction.cpp:82
+#: ../src/core/undo/InsertUndoAction.cpp:64
 msgid "Insert elements"
 msgstr "तत्वों को सम्मिलित करें"
 
@@ -1803,7 +1799,7 @@ msgstr ""
 msgid "Change line style"
 msgstr "लाइन शैली बदलें"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:32
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
 msgid "Merge layer down"
 msgstr ""
 
@@ -1811,7 +1807,7 @@ msgstr ""
 msgid "Move layer"
 msgstr "पर्त को स्थानांतरित करे"
 
-#: ../src/core/undo/MoveUndoAction.cpp:19
+#: ../src/core/undo/MoveUndoAction.cpp:20
 msgid "Move"
 msgstr "स्थानांतरित करें"
 
@@ -1843,7 +1839,7 @@ msgstr "पृष्ठ को ऊपर की ओर ले जाएँ"
 msgid "Move page downwards"
 msgstr "पेज विज़ार्ड खिसकाए"
 
-#: ../src/core/undo/TextBoxUndoAction.cpp:43
+#: ../src/core/undo/TextBoxUndoAction.cpp:26
 msgid "Edit text"
 msgstr "लिखित में बदलाव"
 
