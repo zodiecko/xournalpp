@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:49+0000\n"
-"PO-Revision-Date: 2024-01-10 18:58\n"
+"POT-Creation-Date: 2024-01-14 06:49+0000\n"
+"PO-Revision-Date: 2024-01-16 19:08\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -25,11 +25,11 @@ msgstr "Dosarul audio nu este stabilit sau e greșit! Înregistrarea nu va func�
 
 #: ../src/core/control/Control.cpp:217
 msgid "Filesystem error: {2}"
-msgstr ""
+msgstr "Eroare a sistemului de fișiere: {2}"
 
 #: ../src/core/control/Control.cpp:229
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "Nu s-a putut elimina vechiul fișier salvat automat „{1}”: {2}"
 
 #: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -368,7 +368,7 @@ msgstr "Fișierul {1} nu există."
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr "Eroare a fișierului de sistem: {1}\n"
+msgstr "Eroare a sistemului de fișiere: {1}\n"
 "Xournal++ nu poate deschide fișierul: {2}\n"
 "Încearcă să copiezi fișierul într-un dosar local."
 
@@ -1183,11 +1183,11 @@ msgstr "Benzi cu instrumente"
 msgid "New"
 msgstr "Nou"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:103
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:100
 msgid "Show only not used pages (one unused page)"
 msgstr "Arată numai paginile nefolosite (o pagină nefolosită)"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:104
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:101
 msgid "Show only not used pages ({1} unused pages)"
 msgstr "Arată numai paginile nefolosite ({1} pagini nefolosite)"
 
