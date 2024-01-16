@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:49+0000\n"
-"PO-Revision-Date: 2024-01-10 18:58\n"
+"POT-Creation-Date: 2024-01-14 06:49+0000\n"
+"PO-Revision-Date: 2024-01-16 13:32\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../src/core/control/Control.cpp:229
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "لا يمكن إزالة ملف الحفظ التلقائي القديم \"{1}\": {2}"
 
 #: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -1183,11 +1183,11 @@ msgstr "أشرطة الأدوات"
 msgid "New"
 msgstr "جديد"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:103
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:100
 msgid "Show only not used pages (one unused page)"
 msgstr "إظهار الصفحات غير المستخدمة فقط (صفحة واحدة غير مستخدمة)"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:104
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:101
 msgid "Show only not used pages ({1} unused pages)"
 msgstr "إظهار الصفحات غير المستخدمة فقط ({1} صفحات غير مستخدمة)"
 
@@ -1907,19 +1907,19 @@ msgstr "خطأ في فتح الملف: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:48
 msgid "Error writing data to file: \"{1}\""
-msgstr ""
+msgstr "خطأ في كتابة البيانات إلى الملف: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "رمز خطأ {1}. رسالة:"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
-msgstr ""
+msgstr "حدث خطأ أثناء إغلاق الملف: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:70
 msgid "Error code {1}"
-msgstr ""
+msgstr "رمز خطأ {1}"
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
