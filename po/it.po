@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:49+0000\n"
-"PO-Revision-Date: 2024-01-10 18:58\n"
+"POT-Creation-Date: 2024-01-14 06:49+0000\n"
+"PO-Revision-Date: 2024-01-16 20:13\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -25,11 +25,11 @@ msgstr "Cartella dell'audio non impostata o invalida! Le registrazioni non funzi
 
 #: ../src/core/control/Control.cpp:217
 msgid "Filesystem error: {2}"
-msgstr ""
+msgstr "Errore del filesystem: {2}"
 
 #: ../src/core/control/Control.cpp:229
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "Impossibile rimuovere il vecchio file salvato automaticamente \"{1}\": {2}"
 
 #: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -1183,11 +1183,11 @@ msgstr "Barre degli Strumenti"
 msgid "New"
 msgstr "Nuovo"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:103
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:100
 msgid "Show only not used pages (one unused page)"
 msgstr "Mostra solo le pagine inutilizzate (una pagina inutilizzata)"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:104
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:101
 msgid "Show only not used pages ({1} unused pages)"
 msgstr "Mostra solo le pagine inutilizzate ({1} pagine inutilizzate)"
 
@@ -1907,19 +1907,19 @@ msgstr "Errore nell'apertura del file: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:48
 msgid "Error writing data to file: \"{1}\""
-msgstr ""
+msgstr "Errore nello scrivere dati sul file: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "Codice di errore {1}. Messaggio:"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
-msgstr ""
+msgstr "Errore durante la chiusura del file: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:70
 msgid "Error code {1}"
-msgstr ""
+msgstr "Codice di errore {1}"
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
