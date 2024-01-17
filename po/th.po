@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-14 06:49+0000\n"
-"PO-Revision-Date: 2024-01-17 02:50\n"
+"PO-Revision-Date: 2024-01-17 03:52\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -171,11 +171,11 @@ msgstr ""
 #: ../src/core/control/XournalMain.cpp:301
 #: ../src/core/control/XournalMain.cpp:307
 msgid "Error: {1}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาด: {1}"
 
 #: ../src/core/control/CrashHandler.cpp:42
 msgid "Successfully saved document to \"{1}\""
-msgstr ""
+msgstr "บันทึกเอกสารไปที่ \"{1}\" สำเร็จ"
 
 #: ../src/core/control/DeviceListHelper.cpp:95
 msgid "mouse"
@@ -199,7 +199,7 @@ msgstr "คีย์บอร์ด"
 
 #: ../src/core/control/DeviceListHelper.cpp:106
 msgid "touchscreen"
-msgstr ""
+msgstr "หน้าจอสัมผัส"
 
 #: ../src/core/control/DeviceListHelper.cpp:108
 msgid "touchpad"
@@ -219,7 +219,7 @@ msgstr "สร้างไฟล์รูปภาพสำเร็จแล้
 
 #: ../src/core/control/ExportHelper.cpp:120
 msgid "PDF file successfully created"
-msgstr ""
+msgstr "สร้างไฟล์ PDF สำเร็จ"
 
 #: ../src/core/control/LatexController.cpp:79
 msgid "Global template file does not exist. Please check your settings."
@@ -460,7 +460,7 @@ msgstr "ส่งออกเป็น PDF"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "_ส่งออก"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -665,11 +665,11 @@ msgstr "นำมาไว้ข้างหน้าหนึ่งระดั
 
 #: ../src/core/control/tools/EditSelection.cpp:481
 msgid "Send backward"
-msgstr ""
+msgstr "ส่งไปข้างหลัง"
 
 #: ../src/core/control/tools/EditSelection.cpp:488
 msgid "Send to back"
-msgstr ""
+msgstr "ส่งไปข้างหลัง"
 
 #: ../src/core/control/tools/ImageHandler.cpp:70
 msgid "Failed to load image, could not determine image size!"
