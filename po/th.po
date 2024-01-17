@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-14 06:49+0000\n"
-"PO-Revision-Date: 2024-01-17 03:52\n"
+"PO-Revision-Date: 2024-01-17 11:15\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -25,11 +25,11 @@ msgstr "โฟลเดอร์เสียงไม่ถูกต้อง �
 
 #: ../src/core/control/Control.cpp:217
 msgid "Filesystem error: {2}"
-msgstr ""
+msgstr "ข้อผิดพลาด ระบบแฟ้มข้อมูล: {2}"
 
 #: ../src/core/control/Control.cpp:229
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "ไม่สามารถลบไฟล์บันทึกอัตโนมัติเก่าได้ \"{1}\": {2}"
 
 #: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -37,29 +37,31 @@ msgstr ""
 
 #: ../src/core/control/Control.cpp:549
 msgid "Yes"
-msgstr ""
+msgstr "ใช่"
 
 #: ../src/core/control/Control.cpp:549
 msgid "No"
-msgstr ""
+msgstr "ไม่"
 
 #: ../src/core/control/Control.cpp:728
 msgid "No pdf pages available to append. You may need to reopen the document first."
-msgstr ""
+msgstr "ไม่มีหน้า PDF ให้ผนวก คุณอาจต้องเปิดเอกสารใหม่อีกครั้ง"
 
 #: ../src/core/control/Control.cpp:742
 msgid "Unable to retrieve pdf page."
-msgstr ""
+msgstr "ไม่สามารถเรียกหน้า PDF กลับคืนมาได้"
 
 #: ../src/core/control/Control.cpp:1308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
-msgstr ""
+msgstr "ห้ามเปิดไฟล์บันทึกอัตโนมัติ ไฟล์อาจถูกบันทึกทับได้!\n"
+"กรุณาคัดลอกไฟล์ไปอีกโฟลเดอร์\n"
+"ไม่สามารถเปิดไฟล์จากโฟลเดอร์ {1} ได้"
 
 #: ../src/core/control/Control.cpp:1322
 msgid "file: {1}"
-msgstr ""
+msgstr "ไฟล์: {1}"
 
 #: ../src/core/control/Control.cpp:1370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
@@ -73,19 +75,20 @@ msgstr ""
 #: ../src/core/control/Control.cpp:1383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
-msgstr ""
+msgstr "\n"
+"เสนอไฟล์ทดแทน: \"{1}\""
 
 #: ../src/core/control/Control.cpp:1391
 msgid "Use proposed PDF"
-msgstr ""
+msgstr "ใช้ PDF ที่เสนอ"
 
 #: ../src/core/control/Control.cpp:1393
 msgid "Select another PDF"
-msgstr ""
+msgstr "เลือก PDF อีกไฟล์"
 
 #: ../src/core/control/Control.cpp:1394
 msgid "Remove PDF Background"
-msgstr ""
+msgstr "นำพื้นหลัง PDF ออก"
 
 #: ../src/core/control/Control.cpp:1395 ../src/core/control/Control.cpp:1918
 #: ../src/core/control/XournalMain.cpp:200
@@ -140,15 +143,15 @@ msgstr "เลือกสี"
 
 #: ../src/core/control/Control.cpp:1790
 msgid "Unsaved Document"
-msgstr ""
+msgstr "เอกสารไม่บันทึก"
 
 #: ../src/core/control/Control.cpp:1909
 msgid "Document file was removed."
-msgstr ""
+msgstr "ไฟล์เอกสารถูกลบ"
 
 #: ../src/core/control/Control.cpp:1909
 msgid "This document is not saved yet."
-msgstr ""
+msgstr "เอกสารนี้ยังไม่ได้บันทึก"
 
 #: ../src/core/control/Control.cpp:1910
 msgid "Save As..."
@@ -165,7 +168,7 @@ msgstr "ละทิ้ง"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document..."
-msgstr ""
+msgstr "กำลังพายายามบันทึกฉุกเฉินเอกสารที่เปิดอยู่"
 
 #: ../src/core/control/CrashHandler.cpp:40
 #: ../src/core/control/XournalMain.cpp:301
@@ -203,15 +206,15 @@ msgstr "หน้าจอสัมผัส"
 
 #: ../src/core/control/DeviceListHelper.cpp:108
 msgid "touchpad"
-msgstr ""
+msgstr "แป้นสัมผัส"
 
 #: ../src/core/control/DeviceListHelper.cpp:111
 msgid "trackpoint"
-msgstr ""
+msgstr "trackpoint"
 
 #: ../src/core/control/DeviceListHelper.cpp:113
 msgid "tablet pad"
-msgstr ""
+msgstr "แท็บเล็ต"
 
 #: ../src/core/control/ExportHelper.cpp:78
 msgid "Image file successfully created"
@@ -256,15 +259,15 @@ msgstr ""
 
 #: ../src/core/control/PdfCache.cpp:124
 msgid "PDF background missing"
-msgstr ""
+msgstr "พื้นหลัง PDF หายไป"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "การสั่งพิมพ์ล้มเหลว {1}"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "การลบไฟล์ล้มเหลว: {1}"
 
 #: ../src/core/control/XournalMain.cpp:150
 msgid "Please delete the file manually"
@@ -901,7 +904,7 @@ msgstr ""
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:47
 msgid "GTK Version"
-msgstr ""
+msgstr "เวอร์ชัน GTK"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:54
 msgid "Git commit"
