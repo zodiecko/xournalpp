@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:49+0000\n"
-"PO-Revision-Date: 2024-01-10 18:59\n"
+"POT-Creation-Date: 2024-01-14 06:49+0000\n"
+"PO-Revision-Date: 2024-01-17 02:50\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -20,7 +20,8 @@ msgstr ""
 #: ../src/core/control/AudioController.cpp:120
 msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
-msgstr ""
+msgstr "โฟลเดอร์เสียงไม่ถูกต้อง การบันทึกเสียงไม่สามารถใช้งานได้\n"
+"กรุณาเลือกโฟลเดอร์ที่ \"ตั้งค่า > การบันทึกเสียง\""
 
 #: ../src/core/control/Control.cpp:217
 msgid "Filesystem error: {2}"
@@ -116,21 +117,21 @@ msgstr "เซฟไฟล์"
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "_Cancel"
-msgstr ""
+msgstr "_ยกเลิก"
 
 #: ../src/core/control/Control.cpp:1701
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
-msgstr ""
+msgstr "_บันทึก"
 
 #: ../src/core/control/Control.cpp:1706
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
-msgstr ""
+msgstr "ไฟล์ Xournal++"
 
 #: ../src/core/control/Control.cpp:1753
 msgid "Select font"
-msgstr ""
+msgstr "เลือกฟอนต์"
 
 #: ../src/core/control/Control.cpp:1768
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
@@ -1146,11 +1147,11 @@ msgstr ""
 msgid "New"
 msgstr "สร้าง"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:103
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:100
 msgid "Show only not used pages (one unused page)"
 msgstr ""
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:104
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:101
 msgid "Show only not used pages ({1} unused pages)"
 msgstr ""
 
