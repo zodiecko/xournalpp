@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 17:49+0000\n"
-"PO-Revision-Date: 2024-01-10 18:58\n"
+"POT-Creation-Date: 2024-01-14 06:49+0000\n"
+"PO-Revision-Date: 2024-01-20 06:49\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -25,11 +25,11 @@ msgstr "Audio karpeta ez dago ezarrita edo baliogabea da! Grabaketak ez du funtz
 
 #: ../src/core/control/Control.cpp:217
 msgid "Filesystem error: {2}"
-msgstr ""
+msgstr "Fitxategi-sistemaren errorea: {2}"
 
 #: ../src/core/control/Control.cpp:229
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "Ezin izan da \"{1}\" automatikoki gordetzeko fitxategi zaharra kendu: {2}"
 
 #: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -1183,11 +1183,11 @@ msgstr "Tresna-barrak"
 msgid "New"
 msgstr "Berria"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:103
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:100
 msgid "Show only not used pages (one unused page)"
 msgstr "Erakutsi bakarrik erabili gabeko orriak (erabili gabeko orri bat)"
 
-#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:104
+#: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:101
 msgid "Show only not used pages ({1} unused pages)"
 msgstr "Erabili bakarri erabili gabeko orriak ({1} erabili gabeko orri)"
 
@@ -1907,19 +1907,19 @@ msgstr "Errorea \"{1}\" fitxategia irekitzean"
 
 #: ../src/util/OutputStream.cpp:48
 msgid "Error writing data to file: \"{1}\""
-msgstr ""
+msgstr "Errore bat gertatu da datuak  \"{1}\" fitxategian idaztean."
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "Errore kodea {1}. Mezua:"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
-msgstr ""
+msgstr "Errore bat gertatu da \"{1}\" fitxategia ixtean."
 
 #: ../src/util/OutputStream.cpp:70
 msgid "Error code {1}"
-msgstr ""
+msgstr "Errore kodea {1}"
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
