@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 07:53+0000\n"
-"PO-Revision-Date: 2024-02-07 06:31\n"
+"PO-Revision-Date: 2024-02-07 08:24\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -1249,7 +1249,7 @@ msgstr "Aplicar à página atual"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:88
 msgid "Insert after current page"
-msgstr "Inserir após página atual"
+msgstr "Inserir após a página atual"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:89
 msgid "Insert at end"
@@ -1906,19 +1906,19 @@ msgstr "Erro ao abrir o arquivo: {1}"
 
 #: ../src/util/OutputStream.cpp:48
 msgid "Error writing data to file: \"{1}\""
-msgstr ""
+msgstr "Erro ao gravar dados para o arquivo: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "Código de erro {1}. Mensagem:"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
-msgstr ""
+msgstr "Ocorreu um erro ao fechar o arquivo: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:70
 msgid "Error code {1}"
-msgstr ""
+msgstr "Código de erro: {1}"
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -3880,11 +3880,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
-msgstr ""
+msgstr "_Gerenciar"
 
 #: ../ui/mainmenubar.xml:344
 msgid "_Customize"
-msgstr ""
+msgstr "_Personalizar"
 
 #: ../ui/mainmenubar.xml:359
 msgid "Zoom In"
@@ -3908,31 +3908,31 @@ msgstr "_Navegação"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
-msgstr ""
+msgstr "_Primeira Página"
 
 #: ../ui/mainmenubar.xml:387
 msgid "_Previous Page"
-msgstr ""
+msgstr "_Página Anterior"
 
 #: ../ui/mainmenubar.xml:392
 msgid "_Goto Page"
-msgstr ""
+msgstr "_Ir para a página"
 
 #: ../ui/mainmenubar.xml:397
 msgid "_Next Page"
-msgstr ""
+msgstr "_Próxima Página"
 
 #: ../ui/mainmenubar.xml:402
 msgid "_Last Page"
-msgstr ""
+msgstr "_Última Página"
 
 #: ../ui/mainmenubar.xml:409
 msgid "_Previous Layer"
-msgstr ""
+msgstr "_Camada Anterior"
 
 #: ../ui/mainmenubar.xml:414
 msgid "_Next Layer"
-msgstr ""
+msgstr "_Próxima Camada"
 
 #: ../ui/mainmenubar.xml:419
 msgid "_Top Layer"
@@ -3940,11 +3940,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:425
 msgid "N_ext Annotated Page"
-msgstr ""
+msgstr "Próxima Página Anotada"
 
 #: ../ui/mainmenubar.xml:430
 msgid "P_revious Annotated Page"
-msgstr ""
+msgstr "Página Anotada Anterior"
 
 #: ../ui/mainmenubar.xml:437
 msgid "_Journal"
@@ -3952,7 +3952,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:440
 msgid "New Page _Before"
-msgstr ""
+msgstr "Nova Página _Antes"
 
 #: ../ui/mainmenubar.xml:444
 msgid "New Page _After"
@@ -4040,7 +4040,7 @@ msgstr "_Imagem"
 
 #: ../ui/mainmenubar.xml:552
 msgid "_Default Tool"
-msgstr ""
+msgstr "_Ferramenta Padrão"
 
 #: ../ui/mainmenubar.xml:559
 msgid "Drawing Type"
@@ -4048,7 +4048,7 @@ msgstr "Tipo de desenho"
 
 #: ../ui/mainmenubar.xml:561
 msgid "_Shape Recognizer"
-msgstr ""
+msgstr "_Reconhecimento de forma"
 
 #: ../ui/mainmenubar.xml:586
 msgid "Draw Coordinate System"
