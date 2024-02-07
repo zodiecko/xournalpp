@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 07:53+0000\n"
-"PO-Revision-Date: 2024-02-06 21:19\n"
+"PO-Revision-Date: 2024-02-07 06:31\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -102,7 +102,7 @@ msgstr "Erro ao abrir o arquivo {1}"
 
 #: ../src/core/control/Control.cpp:1435
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
-msgstr "O arquivo que está sendo carregado tem uma versão de formato mais recente que a atualmente suportada por esta versão Xournal++, assim pode não carregar corretamente. Abrir mesmo assim?"
+msgstr "O arquivo que está sendo carregado tem uma versão de formato de arquivo mais recente que a atualmente suportada por esta versão do Xournal++, por isso pode não carregar corretamente. Abrir mesmo assim?"
 
 #: ../src/core/control/Control.cpp:1597
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -4145,7 +4145,7 @@ msgstr "Pausar"
 
 #: ../ui/mainmenubar.xml:855
 msgid "_Help"
-msgstr ""
+msgstr "_Ajuda"
 
 #: ../ui/mainmenubar.xml:859
 msgid "Help"
