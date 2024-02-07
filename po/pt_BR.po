@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 07:53+0000\n"
-"PO-Revision-Date: 2024-02-07 10:17\n"
+"PO-Revision-Date: 2024-02-07 12:38\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -4024,7 +4024,7 @@ msgstr "Selecionar Texto em Linha"
 
 #: ../ui/mainmenubar.xml:528
 msgid "Select Text In Rectangle"
-msgstr ""
+msgstr "Selecionar Texto em Retângulo"
 
 #: ../ui/mainmenubar.xml:534
 msgid "_Highlighter"
@@ -4064,7 +4064,7 @@ msgstr "Espaço _Vertical"
 
 #: ../ui/mainmenubar.xml:644
 msgid "H_and Tool"
-msgstr ""
+msgstr "Ferramenta _Mão"
 
 #: ../ui/mainmenubar.xml:660
 msgid "Pen _Options"
@@ -4073,7 +4073,7 @@ msgstr "_Opções de Caneta"
 #: ../ui/mainmenubar.xml:663 ../ui/mainmenubar.xml:725
 #: ../ui/mainmenubar.xml:772
 msgid "_very fine"
-msgstr ""
+msgstr "_muito fino"
 
 #: ../ui/mainmenubar.xml:668 ../ui/mainmenubar.xml:730
 #: ../ui/mainmenubar.xml:777
@@ -4088,16 +4088,16 @@ msgstr "_médio"
 #: ../ui/mainmenubar.xml:678 ../ui/mainmenubar.xml:740
 #: ../ui/mainmenubar.xml:787
 msgid "_thick"
-msgstr ""
+msgstr "_grosso"
 
 #: ../ui/mainmenubar.xml:683 ../ui/mainmenubar.xml:745
 #: ../ui/mainmenubar.xml:792
 msgid "ver_y thick"
-msgstr ""
+msgstr "m_uito grosso"
 
 #: ../ui/mainmenubar.xml:712 ../ui/mainmenubar.xml:799
 msgid "Fi_ll"
-msgstr ""
+msgstr "Pre_encher"
 
 #: ../ui/mainmenubar.xml:716 ../ui/mainmenubar.xml:803
 msgid "Fill opacity"
@@ -4105,11 +4105,11 @@ msgstr "Opacidade do preenchimento"
 
 #: ../ui/mainmenubar.xml:722
 msgid "Eraser Optio_ns"
-msgstr ""
+msgstr "_Opções da borracha"
 
 #: ../ui/mainmenubar.xml:752
 msgid "_standard"
-msgstr ""
+msgstr "_padrão"
 
 #: ../ui/mainmenubar.xml:757
 msgid "_whiteout"
@@ -4117,7 +4117,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:762
 msgid "_delete strokes"
-msgstr ""
+msgstr "_apagar traços"
 
 #: ../ui/mainmenubar.xml:769
 msgid "Highlighter Opti_ons"
@@ -4257,7 +4257,7 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:30
 msgid "Fill shape functionality"
-msgstr ""
+msgstr "Funcionalidade de preencher formas"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:31
 msgid "Shape resizing and rotation"
