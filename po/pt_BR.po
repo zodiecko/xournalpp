@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 07:53+0000\n"
-"PO-Revision-Date: 2024-02-07 08:24\n"
+"PO-Revision-Date: 2024-02-07 10:17\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -25,11 +25,11 @@ msgstr "Pasta de áudio não definida ou inválida! A gravação não funcionar�
 
 #: ../src/core/control/Control.cpp:217
 msgid "Filesystem error: {2}"
-msgstr ""
+msgstr "Erro no sistema de arquivos: {2}"
 
 #: ../src/core/control/Control.cpp:229
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "Não foi possível remover o arquivo de salvamento automático antigo \"{1}\": {2}"
 
 #: ../src/core/control/Control.cpp:546
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -3876,7 +3876,7 @@ msgstr "_8 linhas"
 
 #: ../ui/mainmenubar.xml:337
 msgid "T_oolbars"
-msgstr ""
+msgstr "_Barras de Ferramentas"
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
@@ -3936,7 +3936,7 @@ msgstr "_Próxima Camada"
 
 #: ../ui/mainmenubar.xml:419
 msgid "_Top Layer"
-msgstr ""
+msgstr "_Camada Superior"
 
 #: ../ui/mainmenubar.xml:425
 msgid "N_ext Annotated Page"
@@ -3956,7 +3956,7 @@ msgstr "Nova Página _Antes"
 
 #: ../ui/mainmenubar.xml:444
 msgid "New Page _After"
-msgstr ""
+msgstr "Nova Página _Após"
 
 #: ../ui/mainmenubar.xml:449
 msgid "New Page at _End"
@@ -4020,7 +4020,7 @@ msgstr "_Borracha"
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
-msgstr ""
+msgstr "Selecionar Texto em Linha"
 
 #: ../ui/mainmenubar.xml:528
 msgid "Select Text In Rectangle"
@@ -4028,7 +4028,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:534
 msgid "_Highlighter"
-msgstr ""
+msgstr "_Destaque"
 
 #: ../ui/mainmenubar.xml:540
 msgid "_Text"
@@ -4121,7 +4121,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:769
 msgid "Highlighter Opti_ons"
-msgstr ""
+msgstr "Opções de _Destaque"
 
 #: ../ui/mainmenubar.xml:809
 msgid "Select PDF Text Options"
@@ -4185,7 +4185,7 @@ msgstr "Xournal++"
 
 #: ../resources-templates/toolbar.ini.in:77
 msgid "Right hand Note Taking"
-msgstr ""
+msgstr "Anotações com a mão direita"
 
 #: ../resources-templates/toolbar.ini.in:80
 msgid "Toolbar Left"
@@ -4209,11 +4209,11 @@ msgstr ""
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:15
 msgid "com.github.xournalpp.xournalpp"
-msgstr ""
+msgstr "com.github.xournalpp.xournalpp"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:10
 msgid "Xournal++ is a hand note-taking software written in C++ with the target of flexibility, functionality and speed. Stroke recognizer and other parts are based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input from devices such as Wacom Tablets."
-msgstr ""
+msgstr "Xournal++ é um software de anotações escrito em C++ com o alvo em flexibilidade, funcionalidade e velocidade. O reconhecedor de traço e outras partes baseiam-se no Xournal Code, que você pode encontrar no SourceForge. Ele suporta GNU/Linux (por exemplo, Ubuntu, Debian, Arch, SUSE), macOS e Windows. Suporta escrita à caneta a partir de dispositivos como as mesas digitalizadoras Wacom."
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:17
 msgid "Xournal++ features:"
